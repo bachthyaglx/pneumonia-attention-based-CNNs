@@ -20,6 +20,7 @@ This dataset contains chest X-ray images for **COVID-19**, **Pneumonia**, and **
 - **Classes**:
   - **COVID-19**: X-ray images of patients diagnosed with COVID-19.
   - **Pneumonia**: X-ray images of patients diagnosed with pneumonia.
+  - **Lung Opacity**: X-ray images of patients diagnosed with lung.
   - **Normal**: X-ray images of healthy individuals with no signs of disease.
 ![image](https://github.com/user-attachments/assets/66238d9e-4875-485f-bd21-406494477c49)
 
