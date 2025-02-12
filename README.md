@@ -88,7 +88,6 @@ The dataset used in this project is Chest X-ray COVID-19 Pneumonia Dataset from 
 ## 3. Run project
 ### Option 1 - Run the Jupyter Notebook
 Open and run either of the following notebooks:
-* cxr_classification.ipynb → Runs a traditional CNN model
 * cxr_classification_attentionCNN.ipynb → Runs an attention-based CNN model
 
 ### Option 2 - Running on Google Colab
