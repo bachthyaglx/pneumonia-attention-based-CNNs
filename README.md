@@ -10,7 +10,8 @@ This project uses deep learning to improve pneumonia detection by applying an at
 
 # Dataset
 ### Dataset: Chest X-Ray Images (COVID-19 & Pneumonia)
-This dataset contains chest X-ray images for **COVID-19**, **Pneumonia**, and **Normal** cases. It is used in this project to train and evaluate an **Attention-Based Convolutional Neural Network (CNN)** for the detection and classification of pneumonia and COVID-19 from chest X-ray images.
+This dataset contains chest X-ray images for **COVID-19**, **Pneumonia**, **Lung Opacity** and **Normal** cases. It is used in this project to train and evaluate an **Attention-Based Convolutional Neural Network (CNN)** for the detection and classification of pneumonia and COVID-19 from chest X-ray images.
+
 ![image](https://github.com/user-attachments/assets/4a165652-7ac3-432b-bab9-80d9f91fb05d)
 
 #### Dataset Overview:
@@ -22,6 +23,7 @@ This dataset contains chest X-ray images for **COVID-19**, **Pneumonia**, and **
   - **Pneumonia**: X-ray images of patients diagnosed with pneumonia.
   - **Lung Opacity**: X-ray images of patients diagnosed with lung.
   - **Normal**: X-ray images of healthy individuals with no signs of disease.
+  
 ![image](https://github.com/user-attachments/assets/66238d9e-4875-485f-bd21-406494477c49)
 
 #### Dataset Usage in This Project:
@@ -42,7 +44,9 @@ The following steps outline the methodology applied in both approaches:
 
 ## 2. Model Architectures
 Attention-Based CNN Model (cxr_classification_attentionCNN.ipynb)
+
 ![image](https://github.com/user-attachments/assets/10bddc85-8980-478d-bdef-4f58ccdf0127)
+
 * Convolutional Layers: Extract local features.
 * Spatial and Channel Attention Modules: Helps the model focus on the most important areas of the image.
 * Batch Normalization & ReLU Activation: Standardization and non-linearity.
@@ -61,9 +65,13 @@ Both models are trained using supervised learning with labeled X-ray images. The
 After training, both models are evaluated using the test dataset to measure performance. The following metrics are calculated:
 * Accuracy: Measures overall correctness of predictions.
 * Precision, Recall, and F1-Score: Evaluates how well the model identifies pneumonia and COVID-19 cases.
+  
+  ![image](https://github.com/user-attachments/assets/149c671b-9781-4259-9e7e-79295e10a0c3)
+
+  ![image](https://github.com/user-attachments/assets/7874e986-d8f5-48b9-b42a-0251df5dee5f)
+  
 * Confusion Matrix: Visualizes classification errors and correct predictions.
-![image](https://github.com/user-attachments/assets/149c671b-9781-4259-9e7e-79295e10a0c3)
-![image](https://github.com/user-attachments/assets/7874e986-d8f5-48b9-b42a-0251df5dee5f)
+
 ![image](https://github.com/user-attachments/assets/1c7919f1-2f8c-4eb4-9754-a8f5287c1c25)
 
 # Guide how to run the project
