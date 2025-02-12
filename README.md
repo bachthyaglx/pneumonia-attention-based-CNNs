@@ -40,14 +40,7 @@ The following steps outline the methodology applied in both approaches:
 * Data Augmentation: To increase the diversity of training samples, techniques such as rotation, flipping, and zooming are applied.
 
 ## 2. Model Architectures
-A. Dense-Based CNN Model (cxr_classification.ipynb)
-* Convolutional Layers: Extracts important image features like edges and textures.
-* Batch Normalization & ReLU Activation: Normalizes the data and introduces non-linearity.
-* Max-Pooling Layers: Reduces feature map size while retaining essential information.
-* Fully Connected Layers (Dense): Transforms extracted features into a classification decision.
-* Softmax Activation: Outputs probability scores for each category (Normal, Pneumonia, or COVID-19).
-
-B. Attention-Based CNN Model (cxr_classification_attentionCNN.ipynb)
+Attention-Based CNN Model (cxr_classification_attentionCNN.ipynb)
 * Convolutional Layers: Extract local features.
 * Spatial and Channel Attention Modules: Helps the model focus on the most important areas of the image.
 * Batch Normalization & ReLU Activation: Standardization and non-linearity.
@@ -68,10 +61,6 @@ After training, both models are evaluated using the test dataset to measure perf
 * Precision, Recall, and F1-Score: Evaluates how well the model identifies pneumonia and COVID-19 cases.
 * Confusion Matrix: Visualizes classification errors and correct predictions.
 * ROC Curve & AUC Score: Assesses the model’s ability to distinguish between classes.
-
-## 5. Comparison Between Traditional CNN and Attention-Based CNN
-* Traditional CNN: Captures general image features but treats all regions equally, potentially missing critical patterns.
-* Attention-Based CNN: Dynamically focuses on important areas (such as infected lung regions), leading to better classification accuracy.
 
 # Guide how to run the project
 To run this project on your local machine, follow these steps:
