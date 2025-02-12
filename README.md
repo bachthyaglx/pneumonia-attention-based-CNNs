@@ -1,10 +1,8 @@
 # Pneumonia Attention-Based CNNs
 
 Aribah Ibrahim 
-
 Seyed Mostafa Musavi
-
-Khu Bach Thy
+Khuu Bach Thy
 
 # Introduction
 Pneumonia is a serious lung infection that can be life-threatening, especially in places with limited medical care. Detecting it early is very important for successful treatment. Doctors often use chest X-ray images to diagnose pneumonia, but reading these images can be difficult because the infection can look different in each patient.
@@ -24,12 +22,10 @@ This dataset contains chest X-ray images for **COVID-19**, **Pneumonia**, and **
   - **Pneumonia**: X-ray images of patients diagnosed with pneumonia.
   - **Normal**: X-ray images of healthy individuals with no signs of disease.
 
-
 #### Dataset Usage in This Project:
 - The dataset is preprocessed and used to train an **Attention-Based CNN** model for pneumonia detection.
 - The model leverages attention mechanisms to focus on relevant regions of the chest X-ray images, improving classification accuracy.
 - The dataset is split into training, validation, and test sets to evaluate the model's performance.
-
 
 # Methodology
 The methodology of this project is based on deep learning techniques for classifying chest X-ray images into three categories: Normal, Pneumonia, and COVID-19. The implementation is divided into two main approaches:
@@ -78,6 +74,9 @@ After training, both models are evaluated using the test dataset to measure perf
 * Attention-Based CNN: Dynamically focuses on important areas (such as infected lung regions), leading to better classification accuracy.
 
 # Evaluation and Results
+visualize training model
+accurancy 
+confusion matrix 
 
 # Guide how to run the project
 To run this project on your local machine, follow these steps:
@@ -109,7 +108,10 @@ Open and run either of the following notebooks:
 ### ii. Run the Notebooks
 - Click the links below to open the notebooks in Google Colab:
   - [Notebook 1: Preprocessing and Training](https://colab.research.google.com/github/bachthyaglx/pneumonia-attention-based-CNNs/blob/main/notebook1.ipynb)
-  - [Notebook 2: Evaluation and Visualization](https://colab.research.google.com/github/bachthyaglx/pneumonia-attention-based-CNNs/blob/main/notebook2.ipynb)
+  - [Notebook 2: Evaluation and Visualization](https://colab.research.google.com/github/bachthyaglx/pneumonia-attention-based-CNNs/blob/main/notebook2.ipyn
+
+# Reference
+[Attention-based Convolutional Neural Network](https://medium.com/@clairenyz/attention-based-convolutional-neural-network-a719693058a7)
 
 
 
