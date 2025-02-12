@@ -40,7 +40,7 @@ The following steps outline the methodology applied in both approaches:
 * Data Augmentation: To increase the diversity of training samples, techniques such as rotation, flipping, and zooming are applied.
 
 ## 2. Model Architectures
-A. Traditional CNN Model (cxr_classification.ipynb)
+A. Dense-Based CNN Model (cxr_classification.ipynb)
 * Convolutional Layers: Extracts important image features like edges and textures.
 * Batch Normalization & ReLU Activation: Normalizes the data and introduces non-linearity.
 * Max-Pooling Layers: Reduces feature map size while retaining essential information.
