@@ -74,9 +74,11 @@ After training, both models are evaluated using the test dataset to measure perf
 * Attention-Based CNN: Dynamically focuses on important areas (such as infected lung regions), leading to better classification accuracy.
 
 # Evaluation and Results
-visualize training model
-accurancy 
-confusion matrix 
+![image](https://github.com/user-attachments/assets/88c0d31d-5f15-49da-902f-94c23b096c30)
+
+![image](https://github.com/user-attachments/assets/e7a044b5-5f60-4fe6-841a-15210b273108)
+
+![image](https://github.com/user-attachments/assets/e12b3939-b6ab-47ec-bb80-ebefe1c565bd)
 
 # Guide how to run the project
 To run this project on your local machine, follow these steps:
