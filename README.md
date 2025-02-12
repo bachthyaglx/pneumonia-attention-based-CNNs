@@ -1,7 +1,7 @@
 # Pneumonia Attention-Based CNNs
 
-Aribah Ibrahim 
-Seyed Mostafa Musavi
+Aribah Ibrahim, 
+Seyed Mostafa Musavi, 
 Khuu Bach Thy
 
 # Introduction
