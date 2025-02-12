@@ -63,13 +63,14 @@ To run this project on your local machine, follow these steps:
 The dataset used in this project is Chest X-ray COVID-19 Pneumonia Dataset from Kaggle.
 * Download it from this Kaggle link.
 * Extract the dataset into the project folder. Make sure the dataset structure looks like this:
-
-Option 1 - Run the Jupyter Notebook
+  
+## 3. Run project
+### Option 1 - Run the Jupyter Notebook
 Open and run either of the following notebooks:
 * cxr_classification.ipynb → Runs a traditional CNN model
 * cxr_classification_attentionCNN.ipynb → Runs an attention-based CNN model
 
-Option 2 - Running on Google Colab
+### Option 2 - Running on Google Colab
 * Upload dataset to google colab
 * Run both ipynb files
 
