@@ -1,9 +1,35 @@
+# Pneumonia Attention-Based CNNs
+
+Aribah Ibrahim 
+
+Seyed Mostafa Musavi
+
+Khu Bach Thy
+
 # Introduction
 Pneumonia is a serious lung infection that can be life-threatening, especially in places with limited medical care. Detecting it early is very important for successful treatment. Doctors often use chest X-ray images to diagnose pneumonia, but reading these images can be difficult because the infection can look different in each patient.
 This project uses deep learning to improve pneumonia detection by applying an attention-based Convolutional Neural Network (CNN). Traditional CNNs are good at identifying patterns in images, but they sometimes miss important details because they focus on the whole image instead of key areas. Attention-based CNNs help solve this problem by highlighting the most important parts of the X-ray, making the diagnosis more accurate.
 
 # Dataset
-https://www.kaggle.com/datasets/prashant268/chest-xray-covid19-pneumonia
+### Dataset: Chest X-Ray Images (COVID-19 & Pneumonia)
+
+This dataset contains chest X-ray images for **COVID-19**, **Pneumonia**, and **Normal** cases. It is used in this project to train and evaluate an **Attention-Based Convolutional Neural Network (CNN)** for the detection and classification of pneumonia and COVID-19 from chest X-ray images.
+
+#### Dataset Overview:
+- **Source**: [Kaggle](https://www.kaggle.com/datasets/prashant268/chest-xray-covid19-pneumonia)
+- **Total Images**: ~6,000+ (across all categories)
+- **Image Type**: Chest X-ray (JPEG format)
+- **Classes**:
+  - **COVID-19**: X-ray images of patients diagnosed with COVID-19.
+  - **Pneumonia**: X-ray images of patients diagnosed with pneumonia.
+  - **Normal**: X-ray images of healthy individuals with no signs of disease.
+
+
+#### Dataset Usage in This Project:
+- The dataset is preprocessed and used to train an **Attention-Based CNN** model for pneumonia detection.
+- The model leverages attention mechanisms to focus on relevant regions of the chest X-ray images, improving classification accuracy.
+- The dataset is split into training, validation, and test sets to evaluate the model's performance.
+
 
 # Methodology
 The methodology of this project is based on deep learning techniques for classifying chest X-ray images into three categories: Normal, Pneumonia, and COVID-19. The implementation is divided into two main approaches:
