@@ -64,22 +64,10 @@ The dataset used in this project is Chest X-ray COVID-19 Pneumonia Dataset from 
 * Download it from this Kaggle link.
 * Extract the dataset into the project folder. Make sure the dataset structure looks like this:
 
-`/pneumonia-attention-based-CNNs
-├── dataset/
-│   ├── Normal/
-│   ├── Pneumonia/
-│   ├── COVID-19/
-│   └── metadata.csv
-├── cxr_classification.ipynb
-├── cxr_classification_attentionCNN.ipynb
-├── requirements.txt
-└── README.md`
-
 Option 1 - Run the Jupyter Notebook
 Open and run either of the following notebooks:
 * cxr_classification.ipynb → Runs a traditional CNN model
 * cxr_classification_attentionCNN.ipynb → Runs an attention-based CNN model
-
 
 Option 2 - Running on Google Colab
 * Upload dataset to google colab
