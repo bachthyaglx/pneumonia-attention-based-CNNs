@@ -13,7 +13,6 @@ The methodology of this project is based on deep learning techniques for classif
 The following steps outline the methodology applied in both approaches:
 
 1. Data Preprocessing
-The dataset consists of chest X-ray images categorized into Normal, Pneumonia, and COVID-19 cases. Before training the model, the images go through several preprocessing steps to ensure better feature extraction and model performance:
 * Resizing: All images are resized to a fixed dimension (e.g., 224x224 or 256x256 pixels) to maintain consistency across the dataset.
 * Normalization: Pixel values are scaled between 0 and 1 to improve training stability.
 * Data Augmentation: To increase the diversity of training samples, techniques such as rotation, flipping, and zooming are applied.
@@ -21,7 +20,6 @@ The dataset consists of chest X-ray images categorized into Normal, Pneumonia, a
 2. Model Architectures
 
 A. Traditional CNN Model (cxr_classification.ipynb)
-A standard Convolutional Neural Network (CNN) architecture is implemented to extract patterns from chest X-ray images. The architecture follows these layers:
 * Convolutional Layers: Extracts important image features like edges and textures.
 * Batch Normalization & ReLU Activation: Normalizes the data and introduces non-linearity.
 * Max-Pooling Layers: Reduces feature map size while retaining essential information.
@@ -29,7 +27,6 @@ A standard Convolutional Neural Network (CNN) architecture is implemented to ext
 * Softmax Activation: Outputs probability scores for each category (Normal, Pneumonia, or COVID-19).
 
 B. Attention-Based CNN Model (cxr_classification_attentionCNN.ipynb)
-To improve classification accuracy, an Attention Mechanism is integrated into the CNN. This helps the model focus on critical regions of the X-ray images rather than treating all parts of the image equally. The modified architecture includes:
 * Convolutional Layers: Extract local features.
 * Spatial and Channel Attention Modules: Helps the model focus on the most important areas of the image.
 * Batch Normalization & ReLU Activation: Standardization and non-linearity.
