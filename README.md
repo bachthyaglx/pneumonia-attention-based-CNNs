@@ -97,6 +97,19 @@ Open and run either of the following notebooks:
 * cxr_classification_attentionCNN.ipynb → Runs an attention-based CNN model
 
 ### Option 2 - Running on Google Colab
-* Upload dataset to google colab
-* Run both ipynb files
+
+### i. Upload the Dataset to Google Colab
+- Download the dataset from [Kaggle](https://www.kaggle.com/datasets/prashant268/chest-xray-covid19-pneumonia).
+- Open the notebook in Google Colab using the links below.
+- In Colab, use the **Files** sidebar to upload the dataset:
+  1. Click the **Files** icon on the left sidebar.
+  2. Click **Upload to session storage**.
+  3. Select the dataset folder (`chest_xray_covid19_pneumonia`) and upload it.
+
+### ii. Run the Notebooks
+- Click the links below to open the notebooks in Google Colab:
+  - [Notebook 1: Preprocessing and Training](https://colab.research.google.com/github/bachthyaglx/pneumonia-attention-based-CNNs/blob/main/notebook1.ipynb)
+  - [Notebook 2: Evaluation and Visualization](https://colab.research.google.com/github/bachthyaglx/pneumonia-attention-based-CNNs/blob/main/notebook2.ipynb)
+
+
 
